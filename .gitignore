@@ -1,0 +1,13 @@
+# Entornos virtuales de Python
+.venv/
+otro_venv/
+
+# Compilación de Rust y Maturin
+target/
+*.so
+*.pyd
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
