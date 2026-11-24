@@ -1,0 +1,11 @@
+[package]
+name = "nombre_modulo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "nombre_modulo"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.29.0"

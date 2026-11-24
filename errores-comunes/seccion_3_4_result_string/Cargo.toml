@@ -1,0 +1,11 @@
+[package]
+name = "result_string"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "result_string"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.29.0"

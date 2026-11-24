@@ -1,0 +1,11 @@
+[package]
+name = "tupla_sin_coma"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "tupla_sin_coma"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.29.0"
