@@ -239,6 +239,12 @@ mod ejemplos_pyo3 {
             Vector2D { x: self.x * escalar, y: self.y * escalar }
         }
 
+        /// 2.0 * v. Solución del "Pruébelo usted" de la sección 3.6:
+        /// reutiliza __mul__ porque el producto por un escalar es conmutativo.
+        fn __rmul__(&self, escalar: f64) -> Self {
+            self.__mul__(escalar)
+        }
+
         /// -v
         fn __neg__(&self) -> Self {
             Vector2D { x: -self.x, y: -self.y }

@@ -12,7 +12,11 @@ Código de la guía *Laboratorio 2: PyO3 y Maturin en Rust* (ECAS Lab). Los ejem
 | [ejercicios/](ejercicios/) | 5.1 y 5.2 | Proyectos `estadisticas` y `soda`, cada uno con el enunciado en `src/lib.rs` y su `prueba.py` |
 | [regresion/regresion_rs/](regresion/regresion_rs/) | 6 | Proyecto de regresión lineal: los archivos de Python proporcionados (`datos.py`, `regresion_py.py` y `main.py`) y los requisitos en `src/lib.rs` |
 
-> **Soluciones.** Todavía no se incluyen las soluciones del Anexo A: A.1 (`estadisticas`), A.2 (`soda`) y A.3 (`regresion_rs` y `tests/test_regresion.py`). Tampoco el `__rmul__` del *Pruébelo usted* de la sección 3.6. Mientras no estén, `prueba.py` de los ejercicios y `main.py` del proyecto fallan al ejecutarse, como es de esperar.
+> **Soluciones.** Esta rama incluye las soluciones del Anexo A:
+> - A.1, en [ejercicios/estadisticas/src/lib.rs](ejercicios/estadisticas/src/lib.rs).
+> - A.2, en [ejercicios/soda/src/lib.rs](ejercicios/soda/src/lib.rs).
+> - A.3, en [regresion/regresion_rs/src/lib.rs](regresion/regresion_rs/src/lib.rs) y [tests/test_regresion.py](regresion/regresion_rs/tests/test_regresion.py).
+> - El `__rmul__` del *Pruébelo usted* de la sección 3.6, en `Vector2D`, con su script `scripts/seccion_3_6_pruebelo_rmul.py`.
 
 ## 2. Preparación del entorno
 
